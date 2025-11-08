@@ -9,23 +9,23 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Vibrant multicolor background */
-    --background: 230 35% 15%;
+    --background: 250 40% 20%;
     --foreground: 0 0% 98%;
 
-    --card: 230 30% 20%;
+    --card: 250 35% 25%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 230 30% 20%;
+    --popover: 250 35% 25%;
     --popover-foreground: 0 0% 98%;
 
     /* Electric violet primary */
     --primary: 280 100% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 230 30% 25%;
+    --secondary: 250 30% 30%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 230 25% 30%;
+    --muted: 250 25% 35%;
     --muted-foreground: 0 0% 70%;
 
     --accent: 280 100% 65%;
@@ -34,8 +34,8 @@ All colors MUST be HSL.
     --destructive: 0 85% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 230 25% 30%;
-    --input: 230 25% 25%;
+    --border: 250 25% 35%;
+    --input: 250 25% 30%;
     --ring: 280 100% 65%;
 
     --radius: 1rem;
@@ -48,16 +48,16 @@ All colors MUST be HSL.
     --color-education: 25 95% 63%;
     
     /* Gradients */
-    --gradient-bg: linear-gradient(135deg, 
-      hsl(230, 35%, 15%) 0%, 
-      hsl(260, 40%, 20%) 25%,
-      hsl(280, 35%, 18%) 50%,
-      hsl(300, 30%, 20%) 75%,
-      hsl(230, 35%, 15%) 100%);
+    --gradient-bg: linear-gradient(110deg, 
+      hsl(260, 50%, 25%) 0%, 
+      hsl(240, 45%, 28%) 25%,
+      hsl(190, 50%, 30%) 50%,
+      hsl(200, 45%, 28%) 75%,
+      hsl(320, 40%, 30%) 100%);
       
     --gradient-card: linear-gradient(135deg,
-      hsl(230, 30%, 22%) 0%,
-      hsl(240, 28%, 18%) 100%);
+      hsl(250, 35%, 27%) 0%,
+      hsl(240, 30%, 23%) 100%);
 
     --radius: 1rem;
 
@@ -79,22 +79,22 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 230 35% 15%;
+    --background: 250 40% 20%;
     --foreground: 0 0% 98%;
 
-    --card: 230 30% 20%;
+    --card: 250 35% 25%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 230 30% 20%;
+    --popover: 250 35% 25%;
     --popover-foreground: 0 0% 98%;
 
     --primary: 280 100% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 230 30% 25%;
+    --secondary: 250 30% 30%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 230 25% 30%;
+    --muted: 250 25% 35%;
     --muted-foreground: 0 0% 70%;
 
     --accent: 280 100% 65%;
@@ -103,8 +103,8 @@ All colors MUST be HSL.
     --destructive: 0 85% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 230 25% 30%;
-    --input: 230 25% 25%;
+    --border: 250 25% 35%;
+    --input: 250 25% 30%;
     --ring: 280 100% 65%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -124,12 +124,12 @@ All colors MUST be HSL.
 
   body {
     @apply text-foreground;
-    background: linear-gradient(135deg, 
-      hsl(230, 35%, 15%) 0%, 
-      hsl(260, 40%, 20%) 25%,
-      hsl(280, 35%, 18%) 50%,
-      hsl(300, 30%, 20%) 75%,
-      hsl(230, 35%, 15%) 100%);
+    background: linear-gradient(110deg, 
+      hsl(260, 50%, 25%) 0%, 
+      hsl(240, 45%, 28%) 25%,
+      hsl(190, 50%, 30%) 50%,
+      hsl(200, 45%, 28%) 75%,
+      hsl(320, 40%, 30%) 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
